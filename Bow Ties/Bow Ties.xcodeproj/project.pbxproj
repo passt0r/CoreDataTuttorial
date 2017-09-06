@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5944040C1F60445D00883EFA /* Bowtie+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5944040A1F60445D00883EFA /* Bowtie+CoreDataClass.swift */; };
+		5944040D1F60445D00883EFA /* Bowtie+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5944040B1F60445D00883EFA /* Bowtie+CoreDataProperties.swift */; };
 		FEA6248E1D6A54FA0011CF8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA6248D1D6A54FA0011CF8F /* AppDelegate.swift */; };
 		FEA624901D6A54FA0011CF8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA6248F1D6A54FA0011CF8F /* ViewController.swift */; };
 		FEA624931D6A54FA0011CF8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA624911D6A54FA0011CF8F /* Main.storyboard */; };
@@ -28,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5944040A1F60445D00883EFA /* Bowtie+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bowtie+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5944040B1F60445D00883EFA /* Bowtie+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bowtie+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		FEA6248A1D6A54FA0011CF8F /* Bow Ties.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bow Ties.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEA6248D1D6A54FA0011CF8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEA6248F1D6A54FA0011CF8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +95,8 @@
 				FEB0E7191D6A55F100A48955 /* SampleData.plist */,
 				FEA6249C1D6A54FA0011CF8F /* Info.plist */,
 				FEA624941D6A54FA0011CF8F /* Bow_Ties.xcdatamodeld */,
+				5944040A1F60445D00883EFA /* Bowtie+CoreDataClass.swift */,
+				5944040B1F60445D00883EFA /* Bowtie+CoreDataProperties.swift */,
 			);
 			path = "Bow Ties";
 			sourceTree = "<group>";
@@ -149,7 +155,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = Razeware;
 				TargetAttributes = {
 					FEA624891D6A54FA0011CF8F = {
@@ -211,6 +217,8 @@
 				FEA624961D6A54FA0011CF8F /* Bow_Ties.xcdatamodeld in Sources */,
 				FEA624901D6A54FA0011CF8F /* ViewController.swift in Sources */,
 				FEA6248E1D6A54FA0011CF8F /* AppDelegate.swift in Sources */,
+				5944040C1F60445D00883EFA /* Bowtie+CoreDataClass.swift in Sources */,
+				5944040D1F60445D00883EFA /* Bowtie+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +278,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -320,6 +329,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;

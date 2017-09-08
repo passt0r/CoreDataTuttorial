@@ -21,13 +21,29 @@
  */
 
 import UIKit
+import CoreData
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
   var window: UIWindow?
+  
+  lazy var coreDataStack = CoreDataStack(modelName: "Dog Walk")
+		
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    guard let destinationNC = window?.rootViewController as? UINavigationController else { return true }
+    guard let destination = destinationNC.topViewController as? ViewController else { return true }
+    destination.managedContext = coreDataStack.managedContext
+    
     return true
+  }
+  
+  func applicationDidEnterBackground(_ application: UIApplication) {
+    coreDataStack.saveContext()
+  }
+  
+  func applicationWillTerminate(_ application: UIApplication) {
+    coreDataStack.saveContext()
   }
 }
